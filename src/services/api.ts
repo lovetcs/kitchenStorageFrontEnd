@@ -41,7 +41,7 @@ export const kitchenApi = {
   },
 
   async deleteItem(id: string) {
-    const response = await fetch(`${API_URL}/items/${id}`, {
+    const response = await fetch(`${API_URL}/items/delete/${id}`, {
       method: 'DELETE',
     });
     if (!response.ok) {

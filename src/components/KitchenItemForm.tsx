@@ -77,12 +77,12 @@ export function KitchenItemForm({ item, onSubmit, isEditing }: KitchenItemFormPr
         <div>
           <label className="block text-sm font-medium text-gray-700">Expiration Date</label>
           <input
-            type="date"
-            name="expirationDate"
-            defaultValue={item?.expirationDate}
-            required
-            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-          />
+          type="date"
+          name="expirationDate"
+          defaultValue={item?.expirationDate}
+          required
+          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+/>
         </div>
       </div>
 
